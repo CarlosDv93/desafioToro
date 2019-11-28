@@ -474,7 +474,7 @@ export class DashboardComponent implements OnInit {
 
     var myChart = new Chart(this.ctx, {
       type: 'line',
-      responsive: true,
+      
       data: {
         labels: chart_labels,
         datasets: [{
